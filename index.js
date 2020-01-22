@@ -14,10 +14,11 @@ $(".btn-roll").click(()=>{
         let dice1_DOM = $("#dice-1");
         let dice2_DOM = $("#dice-2");
 
-        dice1_DOM.css("display", "block");
-        dice2_DOM.css("display", "block");
         dice1_DOM.attr("src",'dice-' + dice1 + '.png');
         dice2_DOM.attr("src",'dice-' + dice2 + '.png');
+
+        dice1_DOM.css("display", "block");
+        dice2_DOM.css("display", "block");
         
         if(dice1 != 1 && dice2 != 1)
         {
